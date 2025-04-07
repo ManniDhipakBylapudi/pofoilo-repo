@@ -158,10 +158,13 @@ body{
     height: 130px;
     width: 130px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(#fca61f 180deg, #9e3e3e 270deg); /* HTML gradient */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.circular-progress.html-progress{
+    background: conic-gradient(#fca61f 180deg, #ededed 0deg); /* HTML gradient */
 }
 .circular-progress::before{
     content: "";
